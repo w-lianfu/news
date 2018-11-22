@@ -1,0 +1,44 @@
+@import './color.scss';
+
+a, a:hover {
+  color: $c000;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h1, h2, h3, h4, h5 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.3;
+  font-weight: 500;
+  padding: 0;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0;
+}
+
+b, strong { font-weight: 500; }
+img { border: none; }
+
+p {
+  margin: 0.2rem 0;
+}
+

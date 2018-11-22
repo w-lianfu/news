@@ -14,12 +14,8 @@ fieldset, lengend, button, input, textarea, select,
 th, td {
   margin: 0;
   padding: 0;
+  line-height: 1.4;
 }
-
-h1 { font-size: 18px; }
-h2 { font-size: 16px; }
-h3 { font-size: 14px; }
-h4, h5, h6 { font-size: 100%; }
 
 address, cite, dfn, em, var, i { font-style: normal; } /* 将斜体扶正 */
 small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
