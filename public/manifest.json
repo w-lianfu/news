@@ -11,5 +11,16 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "features": [
+    { "name": "system.storage"},
+    { "name": "system.fetch"},
+    { "name": "system.network"},
+    { "name": "system.device"}
+  ],
+  "config": {
+    "data":{
+      "umeng_appkey" : "5bf69f8eb465f5c3ad000019"
+    }
+  }
 }
