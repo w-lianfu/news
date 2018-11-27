@@ -1,14 +1,14 @@
 // @flow
 import React, { Component } from 'react';
 
-class Make extends Component<{}, {}> {
+class Message extends Component<{}, {}> {
   render() {
     return (
       <div>
-        <p>Make Page...</p>
+        <p>Message Page...</p>
       </div>
     )
   }
 }
 
-export default Make;
+export default Message;

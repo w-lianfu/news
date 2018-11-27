@@ -1,14 +1,14 @@
 // @flow
 import React, { Component } from 'react';
 
-class Ask extends Component<{}, {}> {
+class Mind extends Component<{}, {}> {
   render() {
     return (
       <div>
-        <p>Ask Page...</p>
+        <p>Mind Page...</p>
       </div>
     )
   }
 }
 
-export default Ask;
+export default Mind;

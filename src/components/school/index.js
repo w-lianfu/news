@@ -1,14 +1,14 @@
 // @flow
 import React, { Component } from 'react';
 
-class Read extends Component<{}, {}> {
+class School extends Component<{}, {}> {
   render() {
     return (
       <div>
-        <p>Read Page...</p>
+        <p>School Page...</p>
       </div>
     )
   }
 }
 
-export default Read;
+export default School;

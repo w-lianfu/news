@@ -1,14 +1,14 @@
 // @flow
 import React, { Component } from 'react';
 
-class Find extends Component<{}, {}> {
+class Home extends Component<{}, {}> {
   render() {
     return (
       <div>
-        <p>Find Page...</p>
+        <p>Home Page...</p>
       </div>
     )
   }
 }
 
-export default Find;
+export default Home;
